@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(120deg, #3ec0b4, #d748f9);
+  background: linear-gradient(120deg, #000000, #000000);
   min-height: 100vh;
   font-family: "Poppins";
   font-size: 16px;
@@ -36,13 +36,13 @@ form button {
 }
 
 form button {
-  color: #d748f9;
+  color: #035c19;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 form button:hover {
-  background: #d748f9;
+  background: #035c19;
   color: #fff;
 }
 
@@ -72,7 +72,7 @@ form button:hover {
 
 .complete-btn,
 .trash-btn {
-  background-color: #940d57;
+  background-color: #ff0000;
   color: #fff;
   cursor: pointer;
   padding: 0.5rem;
@@ -81,7 +81,7 @@ form button:hover {
 }
 
 .complete-btn {
-  background-color: #3ec0b4;
+  background-color: #098d31;
 }
 
 .completed {
@@ -98,90 +98,21 @@ form button:hover {
 .fa-check {
   pointer-events: none;
 }
-/* ......................................... */
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 
-}
-body{
-    background:linear-gradient(120deg, rgb(122, 152, 149),rgb(4, 14, 159));
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
-    font-size: 16px;
-    font-family: 'Courier New', Courier, monospace;
 }
-header{
-    font-size: 2.5rem;
-    font-weight: bold;
-    min-height: 15vh;
-
-}
-header,form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 15vh;
-
-}
-form input, form button{
-    border: none;
-    padding: 0.4rem;
-    background-color: #fff;
-    font-size: 1.5rem;
-}
-form button{
-    color: tomato;
-    cursor: pointer;
-    transition: all .3s ease;
-}
-form button:hover{
-    background-color: tomato;
-    color: #fff;
-
-}
-.container{
-    display: flex;
-    justify-content: center;
-}
-.url_todo{
-    min-width: 30%;
-    list-style: none;
-
-}
-.li_todo{
-    display: flex;
-    background-color: #fff;
-    font-size: 1rem;
-    align-items: center;
-    margin: 0.5rem;
-    transition: all 0.5s ease;
-}
-.name_todo{
-    flex: 1;
-    margin: 0 0.5rem;
-}
-.complet_but,.delet_but{
-background-color: rgb(166, 29, 29);
-color: #fff;
-cursor: pointer;
-padding: 0.5rem;
-font-size: 0.7rem;
-border: none;
-}
-.complet_but{
-    background-color: rgb(31, 173, 31);
-}
-.completed {
-    text-decoration: line-through;
-    opacity: 0.5;
-  }
+.links a{
+    color: rgb(236, 230, 230);
+    font-size: 30px;
+    padding: 5px 10px;
   
-  .fall {
-    transform: translateY(8rem) rotateZ(20deg);
-    opacity: 0;
-  }
-  
- .fa-trash,.fa-check {
-    pointer-events: none;
-  } */
+}
+.links i:hover{
+    /* transform: scale(1.5); */
+    transition: all 1s ease;
+    color: aqua;
+}
